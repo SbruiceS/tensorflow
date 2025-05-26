@@ -10,14 +10,14 @@ astunparse ~= 1.6.3
 flatbuffers ~= 2.0
 google_pasta ~= 0.2
 h5py ~= 3.6.0
-numpy ~= 1.21.4
+numpy ~= 2.0.2
 opt_einsum ~= 3.3.0
 packaging ~= 21.3
 protobuf ~= 3.20.1
 six ~= 1.16.0
 termcolor ~= 1.1.0
 typing_extensions ~= 3.10.0.0
-wheel ~= 0.36.2
+wheel ~= 0.45.1
 wrapt ~= 1.12.1
 
 # We need to pin the gast dependency exactly
@@ -34,7 +34,7 @@ tb-nightly ~= 2.9.0.a
 tf-estimator-nightly ~= 2.11.0.dev
 
 # Test dependencies
-grpcio ~= 1.42.0
+grpcio ~= 1.68.1
 portpicker ~= 1.4.0
 scipy ~= 1.7.3
 # Required for TFLite import from JAX tests
