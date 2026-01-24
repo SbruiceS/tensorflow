@@ -13,7 +13,7 @@ protobuf ~= 3.19.3  # NOTE: Earliest version for Python 3.10
 six ~= 1.16.0
 termcolor ~= 1.1.0
 typing_extensions ~= 3.10.0.0
-wheel ~= 0.36.2
+wheel~=0.46.2
 wrapt ~= 1.12.1
 
 # We need to pin the gast dependency exactly
@@ -35,3 +35,4 @@ scipy ~= 1.7.2  # NOTE: Earliest version for Python 3.10
 # This is usually vendored in setuptools but ensure it gets installed in CI anyway
 # No bound here, we prefer the one in setuptools
 packaging
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
